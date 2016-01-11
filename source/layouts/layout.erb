@@ -26,8 +26,20 @@
 
   <body class="<%= page_classes %>">
 
-    <%= partial "navbar" %>
-    <%= yield %>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-0 col-md-1"></div>
+      <div class="col-xs-12 col-md-10 main">
+        <!-- MAIN -->
+        <%= partial "navbar" %>
+        <%= yield %>
+        <%= partial "footer" %>
+      </div>
+      <div class="col-xs-0 col-md-1"></div>
+    </div>
+  </div>
+
+
 
   </body>
 </html>

@@ -1,0 +1,16 @@
+.footer{
+  background: $red;
+  text-align: center;
+  // padding: 1em 0;
+  a{
+    color: #333333;
+    &:hover{
+      color: $gray-darker;
+      text-decoration: none;
+    }
+  }
+}
+
+.footelement{
+  padding: 1em 0;
+}
