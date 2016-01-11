@@ -26,8 +26,12 @@
 
 // Layout
 
+body{
+  background: $pastelyellow;
+}
+
 .main {
-  background: $yellow;
+  background: white;
   padding-left: 0;
   padding-right: 0;
 }
