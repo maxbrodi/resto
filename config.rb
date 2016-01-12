@@ -10,6 +10,9 @@
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
 
+# i18n
+activate :i18n, :mount_at_root => :fr
+
 ###
 # Page options, layouts, aliases and proxies
 ###
