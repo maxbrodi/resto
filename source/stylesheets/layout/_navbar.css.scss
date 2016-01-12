@@ -9,13 +9,14 @@
   text-align: center;
   margin-bottom: 0;
   a{
-    color: #333333;
+    color: white;
+    text-shadow: 1px 1px 1px black;
     font-weight: 600;
     font-size: 18px;
     font-family: "Raleway", "Open Sans", "Sans Serif";
 
     &:hover{
-      color: $gray;
+      color: #e6e6e6;
       text-decoration: none;
     }
   }
