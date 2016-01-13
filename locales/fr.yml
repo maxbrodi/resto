@@ -33,13 +33,16 @@ fr:
             items:
               - name: Meunières
                 description: et ses 2 sauces
-              - name: Tempura aux herbes
+              - name: Tempura
+                description: aux herbes
               - name: A la panure persillée
                 description: et ses 3 sauces
               - name: A la panure d’encre de seiche
                 description: et ses 3 sauces
-              - name: A la persillade et julienne de lard
-              - name: Caramélisées façon Yakitori
+              - name: A la persillade
+                description: et julienne de lard
+              - name: Caramélisées
+                description: façon Yakitori
               - name: Marinées au gingembre et au citron vert
                 description: condiment coriandre et citronnelle
               - name: Ravioles de grenouilles
