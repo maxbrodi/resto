@@ -1,0 +1,62 @@
+.dishpage-holder{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.dishpage{
+  padding: 0em 2em;
+  // margin-top: 1em;
+}
+
+.dishtitle{
+    margin-bottom: 0.4em;
+    padding: 0.2em;
+    color: $blue;
+    font-family: "Raleway", "Open Sans", "sans-serif";
+    font-size: 19px;
+    font-weight: 600;
+    border-bottom: $blue;
+    border-bottom-style: double;
+    .cattitle{
+      text-align: left;
+    }
+    .catprice{
+      text-align: right;
+    }
+}
+
+.catdescription{
+  color: $red;
+  font-weight: 600;
+  margin: 2em 0em 0.4em 0em;
+}
+
+.dishlist{
+  padding-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+.dishitem{
+  padding: 0.2em 0em;
+}
+
+.dishname{
+  // font-weight: bold;
+}
+
+.dishprice{
+  text-align: right;
+  font-weight: bold;
+  color: $red;
+}
+
+.dishdescription{
+  font-weight: 100;
+  color: $gray-lighter;
+}
+
+.arrow{
+  width: 5%;
+  padding-bottom: 2px;
+  margin-right: 7px;
+}

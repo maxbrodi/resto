@@ -1,0 +1,43 @@
+---
+title: Rainettes - Menu
+---
+
+<div class="container-fluid dishpage-holder">
+  <div class="row">
+    <% t(:menu).each do |key, value| %>
+      <div class="col-xs-12 col-sm-6">
+          <div class="dishpage">
+            <% value.each do |cat| %>
+              <div class="row dishtitle">
+                <div class="col-xs-8 cattitle"><%= cat[:name] %></div>
+                <div class="col-xs-4 catprice"><%= cat[:price] %><%= "€" if cat[:price] %></div>
+              </div>
+              <div class="row dishlist">
+                <% if cat[:souscat] %>
+                  <% cat[:souscat].each do |souscat| %>
+                    <% if souscat[:description] %>
+                      <div class="col-xs-12 catdescription"><%= souscat[:description] %></div>
+                    <% end %>
+                    <% souscat[:items].each do |item| %>
+                      <div class="col-xs-12 dishitem">
+                        <% if item[:price] %>
+                          <div class="col-xs-10 dishname">
+                            <%= image_tag "arrow.png", class: "arrow" %><%= item[:name] %> <div class="dishdescription"><%= item[:description] %></div>
+                          </div>
+                          <div class="col-xs-2 dishprice"><%= item[:price] %></div>
+                        <% else %>
+                          <div class="col-xs-12 dishname">
+                            <%= image_tag "arrow.png", class: "arrow" %><%= item[:name] %> <div class="dishdescription"><%= item[:description] %></div>
+                          </div>
+                        <% end %>
+                      </div>
+                    <% end %>
+                  <% end %>
+                <% end %>
+              </div>
+            <% end %>
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div>

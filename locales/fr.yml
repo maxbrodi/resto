@@ -1,14 +1,114 @@
 ---
 fr:
-  mainmessage: "Ouvert de 10h à 22h du Lundi au Samedi."
+  mainmessage: Ouvert de 10h à 22h du Lundi au Samedi.
   nav:
-    concept: "CONCEPT"
-    menu: "MENU"
-    press: "PRESSE"
-    info: "INFOS"
-    legal: "Mentions Légales"
+    concept: CONCEPT
+    menu: MENU
+    press: PRESSE
+    info: INFOS
+    legal: Mentions Légales
   concept:
     p1: |
       Comme Alexandre Dumas le fait remarquer dans Le grand dictionnaire de cuisine : « Bien des médecins du Moyen Âge se sont opposés à ce qu'on mangeât cette viande qui cependant est blanche et délicate et contient un principe gélatineux plus fluide et moins nourrissant que celui des autres viandes. » Cependant il relève qu'« Au seizième siècle pourtant, les grenouilles étaient servies sur les meilleures tables, et Champier se plaignit de ce goût qu'il regarda comme bizarre, et il y a un siècle à peu près qu'un Auvergnat, nommé Simon, fit une fortune considérable avec les grenouilles qu'on lui envoyait de son pays, qu'il engraissait et qu'il vendait ensuite aux premières maisons de Paris où cet aliment était fort à la mode. »
     p2: |
       On peut donc en déduire que ce mets est consommé en France depuis cette époque. Dumas toujours nous dit qu'« En Italie et en Allemagne on fait une grande consommation de ces batraciens et les marchés en sont couverts, et les Anglais qui en ont horreur et qui, pour cela sans doute, faisaient il y a environ soixante ans des caricatures représentant des Français mangeant des grenouilles ... »
+  menu:
+    maindishes:
+      - name: Entrées
+        price: 5
+        souscat:
+          - items:
+            - name: Soupe de lentilles corail
+            - name: Salade de saison
+            - name: Plateau de charcuterie
+      - name: Formule découverte
+        price: 15
+        souscat:
+          - items:
+            - name: Grenouilles et verre de vin
+      - name: Planches
+        price: 18
+        souscat:
+          - description: Grenouilles à choisir parmi
+            items:
+              - name: Meunières
+                description: et ses 2 sauces
+              - name: Tempura aux herbes
+              - name: A la panure persillée
+                description: et ses 3 sauces
+              - name: A la panure d’encre de seiche
+                description: et ses 3 sauces
+              - name: A la persillade et julienne de lard
+              - name: Caramélisées façon Yakitori
+              - name: Marinées au gingembre et au citron vert
+                description: condiment coriandre et citronnelle
+              - name: Ravioles de grenouilles
+                description: sauce poulette
+              - name: Panées à la noisette
+                description: sauce aigre doux et coco
+              - name: Façon saté
+          - description: 2 accompagnements à choisir parmi
+            items:
+              - name: Pommes grenouille
+              - name: Pommes gaufrettes
+              - name: Pommes frites à l’ail semoule
+              - name: Céleri et rhubarbe cuits
+              - name: Assortiment de purées de saison
+              - name: Maïs soufflé
+              - name: Légumes gratinés au parmesan
+              - name: Courgette farcie de légumes
+    dessertdrinks:
+      - name: Desserts
+        price: 8
+        souscat:
+          - items:
+            - name: Gâteau caramélisé aux pommes
+            - name: Fondant au chocolat praliné
+            - name: Marquise au chocolat
+      - name: Cocktails
+        price: 13
+        souscat:
+          - items:
+            - name: Cocktail Rouge
+            - name: Cocktail Bleu
+            - name: Cocktail Cyan
+            - name: Cocktail Abricot
+            - name: Cocktail Rose
+            - name: Cocktail Violet
+      - name: Vins
+        souscat:
+            - items:
+              - name: Verre
+                price: 5
+              - name: Chateau Poisson
+                price: 25
+              - name: Chateau Chat
+                price: 30
+              - name: Chateau Plume
+                price: 40
+      - name: Bières
+        souscat:
+            - items:
+              - name: Bière 25cl
+                price: 4.5
+              - name: Beer 25cl
+                price: 4.5
+              - name: Cerveza 50cl
+                price: 7
+      - name: Boissons chaudes
+        souscat:
+          - items:
+            - name: Café
+              price: 2
+            - name: Thé
+              price: 2.5
+      - name: Soft
+        souscat:
+          - items:
+            - name: Coca-Cola
+              price: 3
+            - name: Coca-Cola Light
+              price: 3
+            - name: Coca-Cola Zero
+              price: 3
+
