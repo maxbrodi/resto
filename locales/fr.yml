@@ -146,7 +146,7 @@ fr:
     hours1: Ouvert tous les soirs 19h-22h30
     hours2: Samedi et Dimanche 12h30-14h30 & 19h-23h
     companyname: Rainettes SAS
-    SIRET: XXXXXXXXXXX
+    siret: XXXXXXXXXXX
     adressesiege: 11 rue de la Cuisse, 75003 Paris
   switch:
     text: English version
