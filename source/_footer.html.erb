@@ -5,14 +5,14 @@
         <p><%= t(:address) %></p>
       </div>
       <div class="col-xs-12 col-sm-4 footelement">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
+        <% t(:social).each do |name, url| %>
+          <% link_to url, :target => "_blank" do %>
+            <i class="fa fa-<%= name %>"></i>
+          <% end %>
+        <% end %>
       </div>
       <div class="col-xs-12 col-sm-4 footelement">
-        <p>
-          <a href=""><%= t(:nav)[:legal] %></a>
-        </p>
+        <% link_to t(:switch)[:url] do %><p><%= t(:switch)[:text] %></p><% end %>
       </div>
     </div>
   </div>

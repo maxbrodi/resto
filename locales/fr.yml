@@ -1,7 +1,11 @@
 ---
 fr:
   mainmessage: Ouvert de 10h à 22h du Lundi au Samedi.
-  address: 11 rue de la Cuisse, Paris
+  address: 11 rue de la Cuisse, 75003 Paris
+  social:
+    twitter: http://www.twitter.com
+    facebook: http://www.facebook.com
+    instagram: http://www.instagram.com
   nav:
     concept: CONCEPT
     menu: MENU
@@ -141,4 +145,10 @@ fr:
     email: beubeu@gmail.com
     hours1: Ouvert tous les soirs 19h-22h30
     hours2: Samedi et Dimanche 12h30-14h30 & 19h-23h
+    companyname: Rainettes SAS
+    SIRET: XXXXXXXXXXX
+    adressesiege: 11 rue de la Cuisse, 75003 Paris
+  switch:
+    text: English version
+    url: /en
 

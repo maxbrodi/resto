@@ -2,7 +2,9 @@
   <div class="container-fluid">
     <div class="row navrow">
       <div class="visible-xs visible-sm col-xs-12 navlogo">
-        <img src="http://placehold.it/200x90">
+        <% link_to "index.html" do %>
+          <img src="http://placehold.it/200x90">
+        <% end %>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2 navlink">
         <%= link_to t(:nav)[:concept], "concept.html" %>

@@ -30,9 +30,9 @@ title: Rainettes - Info
     </div>
     <div class="col-xs-12 col-sm-6 bigcard info-holder">
       <div class="informations">
-        <img src="http://placehold.it/640x395">
+        <img src="http://placehold.it/661x408">
         <div class="infotxt">
-          <p id="address"><%= t(:address) %></p>
+          <p id="address"><% link_to "http://maps.google.com/?q=" + t(:address) do %><%= t(:address) %><% end %></p>
           <div id="horaires">
             <p><%= t(:info)[:hours1] %></p>
             <p><%= t(:info)[:hours2] %></p>
