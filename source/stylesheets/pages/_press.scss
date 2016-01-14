@@ -1,0 +1,34 @@
+.press-page{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.press-card-holder{
+  padding: 2em;
+  height: 20vh;
+}
+
+.press-card{
+
+}
+
+.pressimage{
+  width: 81px;
+  position: absolute;
+  right: 1em;
+}
+
+.article-review{
+  text-align: justify;
+  min-height: 9vh;
+  .fa{
+    padding-right: 0.5em;
+    font-size: 16px;
+  }
+}
+
+.article-name{
+  text-align: right;
+  font-weight: 600;
+  padding-top: 0.3em;
+}

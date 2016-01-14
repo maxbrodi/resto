@@ -1,0 +1,39 @@
+.map-holder{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.info-holder{
+  // padding: 2em;
+}
+
+.informations{
+  padding: 1em;
+}
+
+.infotxt{
+  text-align: center;
+  margin-top: 2em;
+}
+
+#map{
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  padding: 0;
+}
+
+#address{
+  font-weight: 600;
+}
+
+#contact{
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+#horaires{
+  p{
+    margin: 4px;
+  }
+}

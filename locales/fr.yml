@@ -1,6 +1,7 @@
 ---
 fr:
   mainmessage: Ouvert de 10h à 22h du Lundi au Samedi.
+  address: 11 rue de la Cuisse, Paris
   nav:
     concept: CONCEPT
     menu: MENU
@@ -114,4 +115,30 @@ fr:
               price: 3
             - name: Coca-Cola Zero
               price: 3
+  press:
+    - name: Le Monde
+      url: http://www.lemonde.fr/
+      image: lemonde.png
+      text: What a great restaurant! It's like the best I've ever seen. Loved it. Amazing. Wow.
+    - name: Techcrunch
+      url: http://www.techcrunch.com/
+      image: techcrunch.png
+      text: It's not really tech but it's so good! Omg those legs, awesome.
+    - name: Techcrunch
+      url: http://www.techcrunch.com/
+      image: techcrunch.png
+      text: It's not really tech but it's so good! Omg those legs, awesome.
+    - name: Le Monde
+      url: http://www.lemonde.fr/
+      image: lemonde.png
+      text: What a great restaurant! It's like the best I've ever seen. Loved it. Amazing. Wow.
+    - name: Techcrunch
+      url: http://www.techcrunch.com/
+      image: techcrunch.png
+      text: It's not really tech but it's so good! Omg those legs, awesome.
+  info:
+    telephone: 04 57 68 09 39
+    email: beubeu@gmail.com
+    hours1: Ouvert tous les soirs 19h-22h30
+    hours2: Samedi et Dimanche 12h30-14h30 & 19h-23h
 
