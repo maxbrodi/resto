@@ -9402,9 +9402,10 @@ body {
 /* line 53, /Users/brodi/code/maxbrodi/resto/source/stylesheets/pages/_menu.scss */
 .dishdescription {
   font-weight: 100;
-  color: #CECECE; }
+  color: #CECECE;
+  padding-left: 27px; }
 
-/* line 58, /Users/brodi/code/maxbrodi/resto/source/stylesheets/pages/_menu.scss */
+/* line 59, /Users/brodi/code/maxbrodi/resto/source/stylesheets/pages/_menu.scss */
 .arrow {
   width: 5%;
   padding-bottom: 2px;
