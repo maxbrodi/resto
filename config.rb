@@ -11,7 +11,7 @@
 activate :autoprefixer
 
 # i18n
-activate :i18n, :mount_at_root => false
+activate :i18n, :mount_at_root => :en
 
 ###
 # Page options, layouts, aliases and proxies

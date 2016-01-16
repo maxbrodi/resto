@@ -1,7 +1,7 @@
 ---
 fr:
-  mainmessage: Ouvert de 10h à 22h du Lundi au Samedi.
-  address: 11 rue de la Cuisse, 75003 Paris
+  mainmessage: Open every week day 10am-10pm.
+  address: 8 High St, Oxford OX1 4AB, UK
   social:
     twitter: http://www.twitter.com
     facebook: http://www.facebook.com
@@ -9,116 +9,50 @@ fr:
   nav:
     concept: CONCEPT
     menu: MENU
-    press: PRESSE
-    info: INFOS
-    legal: Mentions Légales
+    press: PRESS
+    info: INFO
+    legal: Legal Notice
   concept:
     p1: |
-      Comme Alexandre Dumas le fait remarquer dans Le grand dictionnaire de cuisine : « Bien des médecins du Moyen Âge se sont opposés à ce qu'on mangeât cette viande qui cependant est blanche et délicate et contient un principe gélatineux plus fluide et moins nourrissant que celui des autres viandes. » Cependant il relève qu'« Au seizième siècle pourtant, les grenouilles étaient servies sur les meilleures tables, et Champier se plaignit de ce goût qu'il regarda comme bizarre, et il y a un siècle à peu près qu'un Auvergnat, nommé Simon, fit une fortune considérable avec les grenouilles qu'on lui envoyait de son pays, qu'il engraissait et qu'il vendait ensuite aux premières maisons de Paris où cet aliment était fort à la mode. »
+      British cuisine is the specific set of cooking traditions and practices associated with the United Kingdom. British cuisine has been described as "unfussy dishes made with quality local ingredients, matched with simple sauces to accentuate flavour, rather than disguise it." However, British cuisine has absorbed the cultural influence of those who have settled in Britain, producing many hybrid dishes, such as the Anglo-Indian chicken tikka masala.
     p2: |
-      On peut donc en déduire que ce mets est consommé en France depuis cette époque. Dumas toujours nous dit qu'« En Italie et en Allemagne on fait une grande consommation de ces batraciens et les marchés en sont couverts, et les Anglais qui en ont horreur et qui, pour cela sans doute, faisaient il y a environ soixante ans des caricatures représentant des Français mangeant des grenouilles ... »
+      Modern British (or New British) cuisine is a style of British cooking which fully emerged in the late 1970s, and has become increasingly popular. It uses high-quality local ingredients, preparing them in ways which combine traditional British recipes with modern innovations, and has an affinity with the Slow Food movement. It is not generally a nostalgic movement, although efforts have been made to re-introduce pre-20th-century recipes. Ingredients not native to the islands, particularly herbs and spices, are frequently added to traditional dishes (echoing the highly spiced nature of much British food in the medieval era).
   menu:
     maindishes:
-      - name: Entrées
-        price: 5
+      - name: Developpment
+        price: 300
         souscat:
           - items:
-            - name: Soupe de lentilles corail
-            - name: Salade de saison
-            - name: Plateau de charcuterie
-      - name: Formule découverte
-        price: 15
+            - name: Developpment of the whole website, ready for mobile.
+      - name: All inclusive monthly fee
+        price: 100
         souscat:
           - items:
-            - name: Grenouilles et verre de vin
-      - name: Planches
-        price: 18
+            - name: Domain name "yourrestaurant.com"
+            - name: Server and maintenance
+            - name: SEO to be found on Google
+            - name: Facebook and Twitter optimization
+      - name: Additionnal language
+        price: 50
         souscat:
-          - description: Grenouilles à choisir parmi
-            items:
-              - name: Meunières
-                description: et ses 2 sauces
-              - name: Tempura
-                description: aux herbes
-              - name: A la panure persillée
-                description: et ses 3 sauces
-              - name: A la panure d’encre de seiche
-                description: et ses 3 sauces
-              - name: A la persillade
-                description: et julienne de lard
-              - name: Caramélisées
-                description: façon Yakitori
-              - name: Marinées au gingembre et au citron vert
-                description: condiment coriandre et citronnelle
-              - name: Ravioles de grenouilles
-                description: sauce poulette
-              - name: Panées à la noisette
-                description: sauce aigre doux et coco
-              - name: Façon saté
-          - description: 2 accompagnements à choisir parmi
-            items:
-              - name: Pommes grenouille
-              - name: Pommes gaufrettes
-              - name: Pommes frites à l’ail semoule
-              - name: Céleri et rhubarbe cuits
-              - name: Assortiment de purées de saison
-              - name: Maïs soufflé
-              - name: Légumes gratinés au parmesan
-              - name: Courgette farcie de légumes
+          - items:
+            - name: Billed monthly per language
+            - name: All the languages you need
+              description: English, French, Chinese, Spanish...
     dessertdrinks:
-      - name: Desserts
-        price: 8
-        souscat:
-          - items:
-            - name: Gâteau caramélisé aux pommes
-            - name: Fondant au chocolat praliné
-            - name: Marquise au chocolat
-      - name: Cocktails
-        price: 13
-        souscat:
-          - items:
-            - name: Cocktail Rouge
-            - name: Cocktail Bleu
-            - name: Cocktail Cyan
-            - name: Cocktail Abricot
-            - name: Cocktail Rose
-            - name: Cocktail Violet
-      - name: Vins
+      - name: Additional features
         souscat:
             - items:
-              - name: Verre
-                price: 5
-              - name: Chateau Poisson
-                price: 25
-              - name: Chateau Chat
-                price: 30
-              - name: Chateau Plume
-                price: 40
-      - name: Bières
-        souscat:
-            - items:
-              - name: Bière 25cl
-                price: 4.5
-              - name: Beer 25cl
-                price: 4.5
-              - name: Cerveza 50cl
-                price: 7
-      - name: Boissons chaudes
-        souscat:
-          - items:
-            - name: Café
-              price: 2
-            - name: Thé
-              price: 2.5
-      - name: Soft
-        souscat:
-          - items:
-            - name: Coca-Cola
-              price: 3
-            - name: Coca-Cola Light
-              price: 3
-            - name: Coca-Cola Zero
-              price: 3
+              - name: Image/text modification
+                price: 50
+              - name: Logo creation
+                price: 1000
+              - name: Artwork
+                price: 100
+              - name: Social Media activation
+                price: 300
+              - name: Image/text modification
+                price: 50
   press:
     - name: Le Monde
       url: http://www.lemonde.fr/
@@ -127,11 +61,11 @@ fr:
     - name: Techcrunch
       url: http://www.techcrunch.com/
       image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
+      text: It's not really tech but it's so good! Omg those fries, awesome.
     - name: Techcrunch
       url: http://www.techcrunch.com/
       image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
+      text: It's not really tech but it's so good! Omg those fries, awesome.
     - name: Le Monde
       url: http://www.lemonde.fr/
       image: lemonde.png
@@ -139,16 +73,15 @@ fr:
     - name: Techcrunch
       url: http://www.techcrunch.com/
       image: techcrunch.png
-      text: It's not really tech but it's so good! Omg those legs, awesome.
+      text: It's not really tech but it's so good! Omg those fries, awesome.
   info:
-    telephone: 04 57 68 09 39
+    telephone: +44 20 7123 4567
     email: beubeu@gmail.com
-    hours1: Ouvert tous les soirs 19h-22h30
-    hours2: Samedi et Dimanche 12h30-14h30 & 19h-23h
-    companyname: Rainettes SAS
+    hours1: Open every week day 10am-10pm
+    hours2: Saturdays and Sundays 6pm-11pm
+    companyname: OpenChef
     siret: XXXXXXXXXXX
-    adressesiege: 11 rue de la Cuisse, 75003 Paris
+    adressesiege: 15 rue Fabre d'Eglantine, Paris
   switch:
     text: English version
-    url: /en
-
+    url: /resto

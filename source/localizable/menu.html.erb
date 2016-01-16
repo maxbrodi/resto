@@ -10,7 +10,7 @@ title: Rainettes - Menu
             <% value.each do |cat| %>
               <div class="row dishtitle">
                 <div class="col-xs-8 cattitle"><%= cat[:name] %></div>
-                <div class="col-xs-4 catprice"><%= cat[:price] %><%= "€" if cat[:price] %></div>
+                <div class="col-xs-4 catprice"><%= cat[:price] %><%= "£" if cat[:price] %></div>
               </div>
               <div class="row dishlist">
                 <% if cat[:souscat] %>
