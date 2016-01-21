@@ -1,29 +1,38 @@
 ---
 fr:
-  mainmessage: Open every week day 10am-10pm.
-  address: 8 High St, Oxford OX1 4AB, UK
+  mainmessage: Drop us an email to set it up! easychefweb@gmail.com
+  address: 86 Percy Street, Oxford OX3 3AD, UK
   social:
     twitter: http://www.twitter.com
     facebook: http://www.facebook.com
     instagram: http://www.instagram.com
   nav:
     concept: CONCEPT
-    menu: MENU
+    menu: PRICING
     press: PRESS
     info: INFO
     legal: Legal Notice
   concept:
-    p1: |
-      British cuisine is the specific set of cooking traditions and practices associated with the United Kingdom. British cuisine has been described as "unfussy dishes made with quality local ingredients, matched with simple sauces to accentuate flavour, rather than disguise it." However, British cuisine has absorbed the cultural influence of those who have settled in Britain, producing many hybrid dishes, such as the Anglo-Indian chicken tikka masala.
-    p2: |
-      Modern British (or New British) cuisine is a style of British cooking which fully emerged in the late 1970s, and has become increasingly popular. It uses high-quality local ingredients, preparing them in ways which combine traditional British recipes with modern innovations, and has an affinity with the Slow Food movement. It is not generally a nostalgic movement, although efforts have been made to re-introduce pre-20th-century recipes. Ingredients not native to the islands, particularly herbs and spices, are frequently added to traditional dishes (echoing the highly spiced nature of much British food in the medieval era).
+    - title: More than just a website design
+      text: We build your complete digital marketing presence.
+    - title: We do the work for you
+      text: Because your time is valuable. We take care of all your digital needs for less than £4/day. REALLY.
+    - title: Fits on Every Screen
+      text: "Smartphones, desktops, laptops, iPads -you name it. Your website looks great on any device."
+    - title: Social Media
+      text: "Easy Chef integrates your Facebook, Instagram, Twitter, and other social media networks directly into your customer’s mobile experience."
+    - title: Centralized Information
+      text: "All the information your customers need will be in their pocket: hours and location, maps and menus."
+    - title: Custom design
+      text: "Your site will feature beautiful menus, and amazing custom design. Yeah, we said custom!"
   menu:
     maindishes:
       - name: Developpment
         price: 300
         souscat:
           - items:
-            - name: Developpment of the whole website, ready for mobile.
+            - name: Developpment of the whole website
+              description: ready for mobile devices.
       - name: All inclusive monthly fee
         price: 100
         souscat:
@@ -46,13 +55,11 @@ fr:
               - name: Image/text modification
                 price: 50
               - name: Logo creation
-                price: 1000
+                price: <1000
               - name: Artwork
                 price: 100
               - name: Social Media activation
-                price: 300
-              - name: Image/text modification
-                price: 50
+                price: <300
   press:
     - name: Le Monde
       url: http://www.lemonde.fr/
@@ -75,13 +82,13 @@ fr:
       image: techcrunch.png
       text: It's not really tech but it's so good! Omg those fries, awesome.
   info:
-    telephone: +44 20 7123 4567
-    email: beubeu@gmail.com
-    hours1: Open every week day 10am-10pm
-    hours2: Saturdays and Sundays 6pm-11pm
-    companyname: OpenChef
-    siret: XXXXXXXXXXX
-    adressesiege: 15 rue Fabre d'Eglantine, Paris
+    telephone: +44 (0) 7554 938537
+    email: easychefweb@gmail.com
+    hours1: Drop us an email to get started!
+    hours2: easychefweb@gmail.com
+    companyname: Open Chef
+    siret: Freelance
+    adressesiege: 86 Percy St, Oxford, OX4 3AD, UK
   switch:
-    text: English version
-    url: /resto
+    text:
+    url: /en
