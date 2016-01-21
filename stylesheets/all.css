@@ -9153,6 +9153,10 @@ button.close {
   padding: 1em 0;
   min-height: 8vh; }
 
+/* line 27, /Users/brodi/code/maxbrodi/resto/source/stylesheets/layout/_footer.css.scss */
+.addressfooter {
+  font-size: 14px; }
+
 /* line 6, /Users/brodi/code/maxbrodi/resto/source/stylesheets/layout/_navbar.css.scss */
 .navbar {
   background: #EE5F5B;
@@ -9289,9 +9293,14 @@ body {
 
 /* line 13, /Users/brodi/code/maxbrodi/resto/source/stylesheets/pages/_concept.scss */
 .concepttxt {
-  padding: 4em 3em;
+  padding: 2em 3em 0em 3em;
   text-align: justify;
   font-size: 14px; }
+
+/* line 19, /Users/brodi/code/maxbrodi/resto/source/stylesheets/pages/_concept.scss */
+.concepttitle {
+  color: #EE5F5B;
+  font-weight: 600; }
 
 /* line 1, /Users/brodi/code/maxbrodi/resto/source/stylesheets/pages/_home.scss */
 .news {
