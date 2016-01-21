@@ -5,8 +5,10 @@ title: Rainettes - Concept
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12 col-lg-6 bigcard concepttxt">
-      <p><%= t(:concept)[:p1] %></p>
-      <p><%= t(:concept)[:p2] %></p>
+      <% t(:concept).each do |paragraph| %>
+      <p class="concepttitle"><%= paragraph[:title] %></p>
+      <p><%= paragraph[:text] %></p>
+      <% end %>
     </div>
     <div class="col-xs-12 col-lg-6 bigcard conceptimg">
       <%= image_tag "restaurant.png" %>

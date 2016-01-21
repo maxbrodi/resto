@@ -11,7 +11,12 @@
 }
 
 .concepttxt{
-  padding: 4em 3em;
+  padding: 2em 3em 0em 3em;
   text-align: justify;
   font-size: 14px;
+}
+
+.concepttitle{
+  color: $brandcolor;
+  font-weight: 600;
 }
